@@ -1,5 +1,5 @@
-# Creación de Aplicativo para Prueba Técnica de XPACE DEV
-
+#  Prueba Técnica XSPACE DEV
+## Luis Oswaldo Rodríguez López
 ## Requerimientos Funcionales
 
 - **RE-F-01:** La aplicación debe permitir a los Administradores iniciar sesión en la misma.
