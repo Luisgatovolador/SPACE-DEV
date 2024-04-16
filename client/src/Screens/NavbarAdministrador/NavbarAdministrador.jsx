@@ -15,6 +15,7 @@ const NavbarAdministrador = () => {
   useEffect(() => {
     const adminData = JSON.parse(sessionStorage.getItem('adminData'));
     setUserData(adminData);
+  
   }, []);
 
   const handleClick = (event) => {

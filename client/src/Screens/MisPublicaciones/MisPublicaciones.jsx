@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import NavbarAdministrador from '../NavbarAdministrador/NavbarAdministrador';
-import Pie from '../Pie/Pie';
-import { Container, Typography, Paper, Grid, Button, Box } from '@mui/material';
+
+import { Container, Typography, Paper, Grid, Button } from '@mui/material';
 
 const MisPublicaciones = () => {
   const [userData, setUserData] = useState(null);

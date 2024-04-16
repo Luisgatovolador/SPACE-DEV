@@ -22,7 +22,7 @@ export const Administrador = async (req, res) => {
         }
         res.json({ success: true, message: "Administrador encontrado", data: administrador }); // Cambiado a administrador
     } catch (error) {
-        // Manejo de errores
+     
     }
 };
 

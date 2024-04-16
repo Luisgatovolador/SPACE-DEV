@@ -39,14 +39,14 @@ const HomeAdmin = () => {
         <Typography variant="h4" component="h1" gutterBottom>
         <Box mr={1} textAlign="center">Blog</Box>
 <Box sx={{ display: 'flex', alignItems: 'center' }}>
-  <SearchIcon /> {/* Agregamos un ícono de lupa */}
+  <SearchIcon /> 
   <TextField
     label="Buscar"
     size="small"
     variant="outlined"
     value={filtroNombre}
     onChange={handleFiltroNombreChange}
-    sx={{ flexGrow: 1 }} // Hacer que la TextField ocupe todo el espacio disponible
+    sx={{ flexGrow: 1 }} 
   />
 </Box>
 

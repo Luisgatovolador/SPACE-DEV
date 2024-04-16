@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import NavbarAdministrador from '../NavbarAdministrador/NavbarAdministrador';
 import { Container, Typography, TextField, Button } from '@mui/material';
 import axios from 'axios';
-import { useParams } from 'react-router-dom'; // Importar el hook useParams
+import { useParams } from 'react-router-dom'; 
 import { useNavigate } from 'react-router-dom';
 
 const EditarPublicaciones = () => {
@@ -16,7 +16,7 @@ const EditarPublicaciones = () => {
       URL: ''
     });
   
-    const { id } = useParams(); // Obtener el ID de la publicación del URL
+    const { id } = useParams(); 
   
     useEffect(() => {
       const adminData = JSON.parse(sessionStorage.getItem('adminData'));
